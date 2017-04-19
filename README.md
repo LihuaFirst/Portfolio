@@ -1,2 +1,2 @@
 # Portfolio
-For Learning and practice purpose only
+Personal fun and repository
