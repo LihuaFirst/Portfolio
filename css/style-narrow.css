@@ -1,0 +1,111 @@
+body {
+	font-size: 11px;
+	min-width: 480px;
+}
+/*************/
+/*   Nav     */
+/*************/
+header {
+	height:55px;
+}
+.nav_wrapper {	left:5%;}
+#progress_wrapper, #progress  {	display:none;}
+/* menu_wrap */
+#menu_wrap {
+	position: relative;
+	padding-top:10px;
+	float:left;
+}
+/* menu icon */
+#menu-icon {
+	color: #ffffff;
+	width: 100px;
+	height: 30px;
+	background: #2C90B1 url(../images/menu-icon.png) no-repeat 10px center;
+	font-size:1.5em;
+	padding: 5px 10px 0 42px;
+	cursor: pointer;
+	display: block !important; /* show menu icon */
+	border-radius: 8px;
+	-moz-transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-o-transition: background-color .2s ease-in-out;
+	-ms-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+}
+#menu-icon:hover {
+	background-color: #1C7496;
+}
+#menu-icon.active {
+	background-color: #2C90B1;
+}
+/* main nav */
+#nav {
+	clear: both;
+	position:fixed;
+	width: 200px;
+	z-index: 10000;
+	padding: 5px;
+	margin-left:20px;
+	background: #f8f8f8;
+	border: solid 1px #0b577b;
+	left:-250px; /* will be toggled with jquery */
+}
+#nav a, 
+#nav ul li a {
+	font-size: 1.5em;
+	background: none;
+	display: inline;
+	padding: 5px 100px 5px 30px;
+	color: #0b577b;
+	border: none;
+}
+#nav a:hover, 
+#nav ul a:hover {
+	background: none;
+	color: #000;
+}
+/* dropdown */
+.menu ul {
+	width: auto;
+	position: static;
+	display: block;
+	border: none;
+	background: inherit;
+}
+.menu ul li {
+	clear: both;
+	float: none;
+	display:list-item;
+	margin: 5px 0 5px 10px;
+	height:25px;
+	text-align:left;
+}
+.jump_page {
+	padding-top:15px;
+   margin-right:10%;
+}
+/****************/
+/*   Article    */
+/****************/
+article h1 {	
+  font-size: 2em;
+  line-height:2em;
+}
+/************/
+/* Elements */
+/************/
+.my_elements_wrapper {
+	margin-left:-570px;  
+	margin-top:-200px;
+	transform:scale(0.6);
+	-ms-transform:scale(0.6); /* IE 9 */
+	-webkit-transform:scale(0.6); /* Safari and Chrome */
+}
+/****** UI *******/
+.skill_lable {
+	width:45px;
+}
+.skillbar_wrapper {
+   margin-top:2px;
+}

@@ -1,0 +1,43 @@
+body {
+	font-size: 13px;
+	min-width: 1400px;
+}
+/*************/
+/*   Nav     */
+/*************/
+#progress_wrapper {
+	width:80%;
+}
+/****************/
+/*   Article    */
+/****************/
+article h1 {  font-size: 4em;}
+/************/
+/* Elements */
+/************/
+.my_elements_wrapper {
+	margin-left:-300px;  
+	margin-top:-10px;
+	transform:scale(1);
+	-ms-transform:scale(1); /* IE 9 */
+	-webkit-transform:scale(1); /* Safari and Chrome */
+}
+/****** UI *******/
+#wall_paper {
+	top:90px;
+	left:360px;
+}
+.triangle-right:after {
+	bottom:-20px; /* value = - border-top-width - border-bottom-width */
+}
+/**********/
+/* Footer */
+/**********/
+footer {
+	transform:scale(1);
+	-ms-transform:scale(1); /* IE 9 */
+	-webkit-transform:scale(1); /* Safari and Chrome */
+}
+#scroll_up {
+	margin-left:10%;	
+}

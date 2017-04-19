@@ -1,0 +1,199 @@
+body {
+  font-family: 'Nunito', Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-image: url(../images/noise.png);
+}
+h1, h2, h3 {
+   font-family: 'Nunito', Verdana, Geneva, sans-serif;
+}
+.navbar-brand {
+  color: #ffffff;	
+  font-size: 18px;
+  width:150px;
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #F0F0F0;
+  text-decoration: none;
+  background-color: transparent;
+}
+.navbar-nav > li > a {
+  margin: 5px;
+  padding: 15px 40px;
+  line-height: 15px;
+  color: #ffffff;
+  font-size:18px;
+  border-radius: 8px;
+  -moz-transition: background-color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out;
+  -o-transition: background-color .2s ease-in-out;
+  -ms-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #F0F0F0;
+  background-color: transparent;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #2C90B1;
+}
+.navbar-toggle {
+	float:left;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #2C90B1;
+}
+.navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.my_banner {
+	padding:30px;
+   margin-bottom: 30px;
+   margin-top:0;
+   color:#ffffff;
+   font-size:21px;
+   line-height:2.2;
+  	background-color:#3DADCC;
+   background:-webkit-gradient(linear, 0 0, 0 100%, from(#2C90B1), to(#3DADCC));
+   background:-moz-linear-gradient(#2C90B1, #3DADCC);
+   background:-o-linear-gradient(#2C90B1, #3DADCC);
+   background:linear-gradient(#2C90B1, #3DADCC);
+	border-radius: 0;
+	-webkit-box-shadow: 0 0 10px 2px #888;
+	-moz-box-shadow: 0 0 10px 2px #888;
+	box-shadow: 0 0 10px 2px #888;
+}
+.my_banner h1 {
+   font-size: 40px;
+}
+.my-blue {
+  background-color: #0b577b;
+   margin-bottom:0px;
+}
+.my_arrow {
+   background:transparent url(../images/arrow_left.png) center left no-repeat;
+   padding-left:40px;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* Spritely */
+#sprite_wrapper {
+	position:relative;
+	overflow:hidden;
+   width:100%;
+   height:340px;
+}
+.sprite_pan {
+   position:absolute;
+   width:100%;
+   height:100%;
+}
+.sprite_elem {
+   position:absolute;
+}
+#wave_back  {  background: transparent url(../images/wave1.png) 0px 200px repeat-x; }
+#wave_front {  background: transparent url(../images/wave2.png) 0px 240px repeat-x; }
+#sky     {  background: #aedfe5 url(../images/sky.png) 0 0 repeat-x;}
+#clouds  {  background: transparent url(../images/cloud.png) 305px 50px repeat-x; }
+#slogan {
+	color:#ffffff;
+	font-size:24px;
+	top:15px;
+	left:120px;
+}
+#control {
+   color:#ffffff;
+   font-size:18px;
+   top:300px;
+   left:20px;
+   z-index:100;
+   cursor: pointer;
+   cursor: hand;
+}
+#helicopter {  
+   background: transparent url(../images/helicopter.png) 0 0 no-repeat;
+   width:120px;
+   height:130px;
+   top: 0px;
+   left:0px;
+}
+#boat    {  
+	background: transparent url(../images/boat.png) 0 0 no-repeat; 
+	width:150px;
+   height:165px;
+   top: 140px;
+   left:-20px;
+}
+#balloon {  
+	background: transparent url(../images/balloon.png) 0 0 no-repeat; 
+   width:140px;
+   height:170px;
+   top: 5px;
+   left:400px;
+}
+#island {  
+   background: transparent url(../images/island.png) 0 0 no-repeat;
+   width:600px;
+   height:250px;
+   top: 90px;
+   left:30px;
+}
+/* Tooltip */
+.tooltip-inner {
+  background-color: #462667;	
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #462667;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Let the my_banner breathe */
+  .my_banner {
+    margin-top:0;
+    padding:50px;
+  }
+  /* Remove padding from wrapping element since we kick in the grid classes here */
+  .body-content {
+    padding: 0;
+  }
+  #slogan {
+   top:15px;
+   left:380px;
+  }
+	#control {
+	   top:300px;
+	   left:20px;
+	}
+	#helicopter {
+	   top: 30px;
+	   left:50px;
+	}
+	#boat { 
+	   top: 140px;
+	   left:150px;
+	}
+	#balloon {
+	   top: 5px;
+	   left:800px;
+	}
+	#island {
+	   top: 90px;
+	   left:330px;
+	}	
+	.my_arrow {
+	   background:transparent url(../images/arrow_left.png) center left no-repeat;
+	   padding-left:30px;
+	}
+}
+	
