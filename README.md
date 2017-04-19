@@ -1,2 +1,2 @@
-# Personal Portfolio
-http://lihuafirst.biz.ht/
+# Portfolio
+For Learning and practice purpose only
